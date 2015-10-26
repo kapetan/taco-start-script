@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/kapetan/taco-start-script#readme",
   "dependencies": {
+    "end-of-stream": "^1.1.0",
     "minimist": "^1.2.0"
   }
 }
