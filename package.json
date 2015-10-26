@@ -1,0 +1,30 @@
+{
+  "name": "taco-start-script",
+  "version": "1.0.0",
+  "description": "Run npm start script based on environment",
+  "main": "index.js",
+  "bin": {
+    "taco-start-script": "bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapetan/taco-start-script.git"
+  },
+  "keywords": [
+    "env",
+    "environment",
+    "taco",
+    "start",
+    "run",
+    "exec",
+    "script"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapetan/taco-start-script/issues"
+  },
+  "homepage": "https://github.com/kapetan/taco-start-script#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
