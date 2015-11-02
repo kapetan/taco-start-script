@@ -14,7 +14,8 @@ In the `package.json` specify a start command for each environment.
 	"scripts": {
 		"start": "taco-start-script",
 		"start-development": "node server.js",
-		"start-staging": "taco-nginx node server.js"
+		"start-staging": "taco-nginx node server.js",
+		"start-production": "taco-nginx --https-only node server.js"
 	}
 }
 ```
